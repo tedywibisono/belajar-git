@@ -1,0 +1,395 @@
+:root{
+    --pr-color : #00985B;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3FFF4;
+}
+/* navbar */
+.navbar{
+    z-index: 3;
+}
+*{z-index: 2;}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link.active {
+    font-size: 16px;
+}
+.nav-link.active {
+    font-weight: 700;
+}
+.button-secundary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-secundary a{
+    text-decoration: none;
+    color: var(--pr-color);
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color:#fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-primary a{
+    text-decoration: none;
+    color:#FFFFFF
+}
+.profil{
+    background-color: transparent;
+    color:#fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* rumah.php */
+#navbar2{
+    background-color: var(--pr-color);
+}
+#navbar2 span{
+    color: #fff;
+}
+#cekrumah .button-lg-primary{
+    background-color: var(--pr-color);
+    height: 40px;
+}
+#cekrumah .button-lg-primary p{
+    color: #fff;
+    margin-top: 6px;
+}
+#cekrumah .button-lg-primary p span{
+    font-weight: 700;
+}
+
+
+/* hero section */
+#hero{
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+.img-hero{
+    height: 557.67px;
+    z-index: 1;
+    width: 809px;
+}
+.hero-tagline h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 50px;
+}
+.hero-tagline p{
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #fff;
+    width: 85%;
+}
+.button-lg-primary{
+    width: 273px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.accsen-image{
+    z-index: 1;
+}
+/* layanan */
+#layanan{
+    padding: 100px 0;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+.circle-icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .1s ease-in;
+}
+.card-layanan h3{
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+
+.card-layanan p{
+    color: #000;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+/* hover */
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background:linear-gradient(160deg, var(--pr-color), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-in;
+}
+.card-layanan:hover .circle-icon{
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+
+.card-layanan:hover h3{
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+
+/* navbar layanan */
+#navbarlayanan ul{
+    color: var(--pr-color);
+
+}
+
+/* search */
+#search{
+    background-image: url(img/kursi.png) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#search h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    padding-top: 40px;
+
+}
+#search p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+}
+.input-cari{
+    height: 88px;
+}
+.input-cari:focus{
+    border: none;
+}
+
+.input-cari .button-secondary{
+    width: 200px;
+    height: 88px;
+    color: var(--pr-color);
+    background-color: rgba(225, 225, 225, 0.8);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+.input-cari .button-primary{
+    height: 88px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-link{
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 0 0 0 0;
+}
+.nav-tabs .nav-link.active{
+    background-color: rgb(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    border: 0 9px 0 0;
+    font-weight: 500;
+
+}
+.nav-tabs .nav-link{
+    color: #000;
+    border: none;
+}
+
+
+/* sectiom rekomendasi */
+.card{
+    height: 460px;
+    border: none;
+}
+.card-body h4{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0.8rem;
+}
+.card-body p {
+    color: #141414;
+    font-weight: 400;
+    font-size: 14px;
+}
+.card-body a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.card:hover {
+    background: linear-gradient(170deg, var(--pr-color), #007246, #007245, #000);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 25%);
+}
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.card-fasilitas {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    background-color: #fff;
+}
+.card-fasilitas span{
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+.card-fasilitas p{
+    font-size: 12px;
+    color: #000;
+}
+
+.card:hover .card-body a{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.card-fasilitas span img{
+    margin-right: 5px;
+}
+
+
+/* login */
+
+.login{
+    height: 100vh;
+}
+.login .header h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--pr-color);
+}
+.login .header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin-bottom: 20px;
+}
+.login-form label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+.login-form input{
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.login-form a{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #737373;
+margin-top: 20px;
+margin-bottom: 20px;
+display: block;
+}
+
+.login-form .sign-in{
+    width: 100%;
+    height: 42px;
+    background: var(--pr-color);
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+}
+.login-form .sign-in-google{
+    width: 100%;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 10px 0 20px 0;
+}
+.login-form span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+
+}
+.login-form span a{
+    font-weight: 600;
+    text-decoration: none;
+}
