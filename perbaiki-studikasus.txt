@@ -1,0 +1,3 @@
+buat stdudy kasus menjadi mvc
+membuat api nya
+membuat jadi responsive
